@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.SampleController">
+    <ComboBox fx:id="yearComboBox" onAction="#onYearSelected" />
+    <TableView fx:id="driverTable">
+        <columns>
+            <TableColumn fx:id="forenameColumn" text="Forename" />
+            <TableColumn fx:id="surnameColumn" text="Surname" />
+            <TableColumn fx:id="winsColumn" text="Wins" />
+            <TableColumn fx:id="totalPointsColumn" text="Total Points" />
+            <TableColumn fx:id="seasonRankColumn" text="Season Rank" />
+        </columns>
+    </TableView>
+</VBox>
