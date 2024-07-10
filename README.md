@@ -20,6 +20,8 @@ Luego en una TableView mostrar eL "Driver Name" - "Wins" - "Total Points" - "Ran
 
 Resultados: 
 
+mvn javafx:run #Para la ejecución del proyecto
+
 
 
 
